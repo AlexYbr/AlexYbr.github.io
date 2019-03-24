@@ -1,0 +1,43 @@
+body {
+    margin-left: 250px;
+    background-color: lightgrey;
+}
+
+ul.navbar {
+    position: absolute;
+    top: 30px;
+    left: 2px;
+    width: 150px;
+}
+ul.navbar li {
+    margin: 5px 0;
+    padding: 5px;
+    border-right: 1px solid #17252a;
+    border-top: 1px solid #17252a;
+    border-left: 10px solid #17252a;
+    border-bottom: 1px solid #17252a;
+    background-color: black;
+}
+
+ul.navbar a {
+    text-decoration: none
+}
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+#coucou { color : darkslategrey}
+#order { color: darkred}
+
+#legende4 {
+    margin-left: 60px}
+#legende1 {
+    margin-left: 100px}
+#legende2 {
+    margin-left: 130px}
+#legende3 {
+    margin-left: 120px}
