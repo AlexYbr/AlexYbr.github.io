@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Shopping</title>
+</head>
+<body>
+<ul class="navbar">
+    <li> <a href= "index.html"> Home </a> </li>
+    <li> <a href="tasks.html"> Tasks</a> </li>
+    <li> <a href="forms.html"> Shopping </a></li>
+    <li> <a href="shopping.html"> Order some food </a> </li>
+    <li> <a href="https://www.kodawari-ramen.com/"> My favorite restaurant </a> </li>
+
+</ul>
+
+<h2>Let's do some shopping ! </h2>
+
+<div id="shopping">
+    <form onsubmit="return false">
+        <label>
+            <input type="checkbox" id="isImportant" name="isImportant">
+            Is important
+        </label><br>
+        <label>
+            <input type="checkbox" id="groceries" name="groceries">
+            Can be bought in groceries
+        </label><br><br>
+        <label>Item to buy
+            <input type="text" placeholder="Item name" name="itemName" id="itemName">
+        </label>
+        <button onclick="addItem()">Add !</button>
+        <label> / Item to remove
+            <input type="number" style="width:50px;" min="0" max="0" placeholder="Index" name="itemRemove" id="itemRemove">
+        </label>
+        <button onclick="removeItem()">Remove !</button>
+    </form>
+
+    <p>Shopping list :</p>
+    <ol id="list">
+    </ol>
+
+</div>
+
+
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
